@@ -18,6 +18,26 @@
     text-decoration: none;
 }
 
+/*----------header----------*/
+
+.web{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color)
+}
+
+.studio{
+    font-family: Raleway sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+}
+
 .menu-link{
     font-weight: 500;
     font-size: 14px;
@@ -26,12 +46,24 @@
     color: var(--primery-text-color);
 }
 
-.header-btn{
+.menu-link-accent-color{
+    color: var(--accent-color);
+}
+
+.menu-link:hover, .menu-link:focus{
+    color: var(--accent-color);
+}
+
+.header-site{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+}
+
+.header-site:hover, .header-site:focus{
+    color: var(--accent-color)
 }
 
 .header-tel{
@@ -40,4 +72,105 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-text-color)
+}
+
+.header-tel:hover, .header-tel:focus{
+    color: var(--accent-color);
+}
+
+/*----------hero----------*/
+
+.hero{
+    background-color: var(--primery-text-color);
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--primary-title-color)
+}
+
+.button{
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--primary-title-color)
+}
+
+/*----------about----------*/
+
+.third-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primery-text-color)
+}
+
+.about-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color)
+}
+
+/*----------work-foto----------*/
+
+.title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color)
+}
+
+/*----------section-comannd----------*/
+
+.name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color)
+}
+
+.speciality{
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color)
+}
+
+/*----------footer-class----------*/
+
+.footer-class{
+    background-color: var(--second-text-color)
+}
+
+.footer-address{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color)
+}
+
+.footer-header-site{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-header-tel{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
