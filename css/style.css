@@ -20,21 +20,19 @@
 
 /*----------header----------*/
 
-.web{
-    font-family: Raleway, sans-serif;
+.logo{
+    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+}
+
+.web{
     color: var(--accent-color)
 }
 
 .studio{
-    font-family: Raleway sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--primery-text-color);
 }
 
@@ -161,6 +159,17 @@
     color: var(--primary-title-color)
 }
 
+.footer-list{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);  
+}
+
+.footer-header-site:hover, .footer-header-site:focus{
+    color: var(--accent-color);
+}
+
 .footer-header-site{
     font-size: 14px;
     line-height: 1.71;
@@ -168,9 +177,72 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-header-tel:hover, .footer-header-tel:focus{
+    color: var(--accent-color);
+}
+
 .footer-header-tel{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+
+/*----------header portfolio----------*/
+
+.header-site-portfolio{
+    color: var(--second-text-color)
+}
+
+/*----------visually----------*/
+
+.visually{
+    background-color: var(--second-text-color)
+}
+
+.visually-list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color)
+}
+
+.visually-btn{
+    cursor: pointer;
+}
+
+.btn-accent{
+    color: var(--accent-color);
+}
+
+.visually-btn:hover, .visually-btn:focus{
+    color: var(--accent-color);
+}
+
+/*----------hidden-portfolio----------*/
+
+.hidden-list{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color)
+}
+
+.hidden-lines{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color)
+}
+
+.hidden-text{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color)
 }
