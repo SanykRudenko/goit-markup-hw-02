@@ -6,7 +6,7 @@
     --accent-color: #2196F3;
 }
 
-.body{
+body{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -87,6 +87,7 @@
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
+    text-transform: uppercase;
     color: var(--primary-title-color)
 }
 
@@ -152,7 +153,12 @@
     background-color: var(--second-text-color)
 }
 
+.footer-studio{
+    color: var(--primary-title-color);
+}
+
 .footer-address{
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -233,6 +239,7 @@
 }
 
 .hidden-lines{
+    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -241,6 +248,8 @@
 }
 
 .hidden-text{
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
