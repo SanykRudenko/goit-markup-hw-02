@@ -26,14 +26,11 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: var(--primery-text-color);
 }
 
 .web{
     color: var(--accent-color)
-}
-
-.studio{
-    color: var(--primery-text-color);
 }
 
 .menu-link{
@@ -153,7 +150,7 @@ body{
     background-color: var(--second-text-color)
 }
 
-.footer-studio{
+.logo-footer{
     color: var(--primary-title-color);
 }
 
@@ -203,10 +200,6 @@ body{
 
 /*----------visually----------*/
 
-.visually{
-    background-color: var(--second-text-color)
-}
-
 .visually-list{
     font-weight: 500;
     font-size: 16px;
@@ -217,6 +210,11 @@ body{
 }
 
 .visually-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 
@@ -228,8 +226,6 @@ body{
     color: var(--accent-color);
 }
 
-/*----------hidden-portfolio----------*/
-
 .hidden-list{
     font-weight: 700;
     font-size: 18px;
@@ -239,8 +235,7 @@ body{
 }
 
 .hidden-lines{
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -248,7 +243,6 @@ body{
 }
 
 .hidden-text{
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
