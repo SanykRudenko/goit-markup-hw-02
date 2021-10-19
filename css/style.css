@@ -353,6 +353,11 @@ body{
 
 /*----------visually----------*/
 
+.visually{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .visually-list{
     font-weight: 500;
     font-size: 16px;
