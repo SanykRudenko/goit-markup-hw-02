@@ -6,8 +6,28 @@
     --accent-color: #2196F3;
 }
 
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .list{
@@ -20,6 +40,16 @@ body{
 
 /*----------header----------*/
 
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border: 1px solid #ECECEC;
+}
+
+.header-container{
+    display: flex;
+}
+
 .logo{
     font-family: Raleway;
     font-weight: 700;
@@ -31,6 +61,23 @@ body{
 
 .web{
     color: var(--accent-color)
+}
+
+.menu-list{
+    display: flex;
+}
+
+.menu-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.header-logo{
+    margin-right: 93px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
 }
 
 .menu-link{
@@ -47,6 +94,11 @@ body{
 
 .menu-link:hover, .menu-link:focus{
     color: var(--accent-color);
+}
+
+.header-connect{
+    margin-left: auto;
+    align-items: center;
 }
 
 .header-site{
@@ -73,9 +125,12 @@ body{
     color: var(--accent-color);
 }
 
+
 /*----------hero----------*/
 
 .hero{
+    padding-top: 200px;
+    padding-bottom: 280px;
     background-color: var(--primery-text-color);
 }
 .hero-title{
