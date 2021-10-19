@@ -19,6 +19,10 @@ button{
     cursor: pointer;
 }
 
+img{
+    display: block;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -129,11 +133,14 @@ body{
 /*----------hero----------*/
 
 .hero{
-    padding-top: 200px;
-    padding-bottom: 280px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--primery-text-color);
 }
 .hero-title{
+    margin: 0 auto;
+    max-width: 696;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -143,7 +150,19 @@ body{
     color: var(--primary-title-color)
 }
 
+.hero-btn{
+    display: block;
+    margin: 0 auto;
+    background-repeat: 4px;
+    margin-top: 30;
+    margin-bottom: 200;
+    background-color: var(--accent-color);
+}
+
+
 .button{
+    min-width: 200px;
+    height: 50px;
     cursor: pointer;
     font-family: inherit;
     font-weight: bold;
@@ -153,10 +172,17 @@ body{
     color: var(--primary-title-color)
 }
 
-/*----------about----------*/
 
+
+/*----------Описание чем занимаемся----------*/
+
+.about{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .third-title{
-    font-weight: bold;
+    max-width: 270px;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -164,7 +190,21 @@ body{
     color: var(--primery-text-color)
 }
 
+.about-list{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: -30px;
+}
+
+.about-item{
+    flex-basis: calc(100% / 4 - 30);
+    margin-left: 30px;
+}
+
 .about-text{
+    margin-top: 10px;
+    margin-bottom: 94px;
+    min-width: 270px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -173,8 +213,13 @@ body{
 
 /*----------work-foto----------*/
 
+.work-foto{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .title{
-    font-weight: bold;
+    margin-bottom: 50px;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -182,16 +227,57 @@ body{
     color: var(--primery-text-color)
 }
 
+.title-list{
+    display: flex;
+    margin-left: -30px;
+}
+
+.title-item{
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+}
+
 /*----------section-comannd----------*/
+
+.section-command{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.title-command{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color)
+}
+
+.title-list-command{
+    display: flex;
+    margin-left: -30px;
+}
+
+.command-item{
+    flex-basis: calc(100% / 4 -30px);
+    margin-left: 30px;
+}
 
 .name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--primery-text-color)
+    color: var(--primery-text-color);
+    margin-bottom: 10px;
+
 }
 
+.command-item-desciption{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
 .speciality{
     font-size: 16px;
     line-height: 1.19;
@@ -202,14 +288,22 @@ body{
 /*----------footer-class----------*/
 
 .footer-class{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-class{
     background-color: var(--second-text-color)
 }
 
 .logo-footer{
+    display: block;
+    margin-bottom: 20px;
     color: var(--primary-title-color);
 }
 
 .footer-address{
+    margin-bottom: 9px;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -226,6 +320,10 @@ body{
 
 .footer-header-site:hover, .footer-header-site:focus{
     color: var(--accent-color);
+}
+
+.footer-item{
+    margin-bottom: 9px;
 }
 
 .footer-header-site{
