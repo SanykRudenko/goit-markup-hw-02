@@ -359,12 +359,20 @@ body{
 }
 
 .visually-list{
+    display: flex;
+    margin-left: 52px;
+    justify-content: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primery-text-color)
+}
+
+.visually-item{
+    flex-basis: calc(100% / 5 -52px);
+    margin-left: 52px;
 }
 
 .visually-btn{
@@ -385,7 +393,16 @@ body{
     color: var(--accent-color);
 }
 
+.hiden-visually-img{
+    padding-top: 56px;
+}
+
+
 .hidden-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: -30px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -393,7 +410,15 @@ body{
     color: var(--primery-text-color)
 }
 
+.hiden-item{
+    flex-basis: calc(100% 9 -30px);
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
 .hidden-lines{
+    margin-top: 20px;
+    margin-left: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -402,6 +427,9 @@ body{
 }
 
 .hidden-text{
+    margin-top: 4px;
+    margin-bottom: 20px;
+    margin-left: 24px;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
